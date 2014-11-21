@@ -29,6 +29,9 @@ dependencies[] = assemble
 dependencies[] = curate
 dependencies[] = import
 
+;site factory
+dependencies[] = acsf
+
 ; System Requirements
 php = 5.3
 php_memory_limit = 128M
