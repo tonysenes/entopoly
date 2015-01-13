@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Entercom Concert Content Type feature.
+ */
+
+include_once 'entercom_concert_content_type.features.inc';
