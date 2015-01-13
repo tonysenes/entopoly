@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Entercom Personality feature.
+ */
+
+include_once 'entercom_personality.features.inc';
