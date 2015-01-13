@@ -30,7 +30,7 @@ dependencies[] = curate
 dependencies[] = import
 
 ;site factory
-dependencies[] = acsf
+;dependencies[] = acsf
 
 ; System Requirements
 php = 5.3

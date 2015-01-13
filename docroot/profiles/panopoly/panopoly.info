@@ -51,6 +51,9 @@ dependencies[] = distro_update
 dependencies[] = uuid
 dependencies[] = apps
 
+;site factory
+dependencies[] = acsf
+
 ; Information added by Drupal.org packaging script on 2015-01-13
 version = "7.x-1.15"
 core = "7.x"
