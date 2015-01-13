@@ -9,6 +9,7 @@ dependencies[] = features
 dependencies[] = file
 dependencies[] = panopoly_core
 dependencies[] = taxonomy
+dependencies[] = image
 dependencies[] = text
 features[features_api][] = api:2
 features[field_base][] = field_date
