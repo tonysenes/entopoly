@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Entercom Promoted Page View feature.
+ */
+
+include_once 'entercom_promoted_page_view.features.inc';
