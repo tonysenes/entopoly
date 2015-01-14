@@ -131,7 +131,7 @@ function entercom_fields_field_default_field_bases() {
   // Exported field_base: 'field_image'
   $field_bases['field_image'] = array(
     'active' => 1,
-    'cardinality' => 1,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
     'field_name' => 'field_image',
@@ -200,33 +200,34 @@ function entercom_fields_field_default_field_bases() {
     'type' => 'entityreference',
   );
 
-  // Exported field_base: 'field_social_media_link'
-  $field_bases['field_social_media_link'] = array(
+  // Exported field_base: 'field_social_links'
+  $field_bases['field_social_links'] = array(
     'active' => 1,
-    'cardinality' => 5,
+    'cardinality' => -1,
     'deleted' => 0,
     'entity_types' => array(),
-    'field_name' => 'field_social_media_link',
-    'foreign keys' => array(
-      'format' => array(
-        'columns' => array(
-          'format' => 'format',
-        ),
-        'table' => 'filter_format',
-      ),
-    ),
-    'indexes' => array(
-      'format' => array(
-        0 => 'format',
-      ),
-    ),
+    'field_name' => 'field_social_links',
+    'foreign keys' => array(),
+    'indexes' => array(),
     'locked' => 0,
-    'module' => 'text',
+    'module' => 'link',
     'settings' => array(
-      'max_length' => 255,
+      'attributes' => array(
+        'class' => '',
+        'rel' => '',
+        'target' => 'default',
+      ),
+      'display' => array(
+        'url_cutoff' => 80,
+      ),
+      'enable_tokens' => 1,
+      'title' => 'optional',
+      'title_maxlength' => 128,
+      'title_value' => '',
+      'url' => 0,
     ),
     'translatable' => 0,
-    'type' => 'text',
+    'type' => 'link_field',
   );
 
   // Exported field_base: 'field_tags'
