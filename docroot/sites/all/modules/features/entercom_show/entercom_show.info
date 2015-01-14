@@ -1,8 +1,8 @@
 name = Entercom Show
-description = Entercom Show content type
+description = Entercom Show Content Type
 core = 7.x
-package = Features
-version = 7.x-1.0
+package = Entercom Content
+version = 7.x-1.1
 project = entercom_show
 dependencies[] = ctools
 dependencies[] = entercom_fields
@@ -21,3 +21,4 @@ features[variable][] = menu_parent_shows
 features[variable][] = node_options_shows
 features[variable][] = node_preview_shows
 features[variable][] = node_submitted_shows
+mtime = 1421193890
