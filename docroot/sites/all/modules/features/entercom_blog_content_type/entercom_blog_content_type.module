@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Entercom Blog Content Type feature.
+ */
+
+include_once 'entercom_blog_content_type.features.inc';
