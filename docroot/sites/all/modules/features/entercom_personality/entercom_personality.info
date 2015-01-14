@@ -1,7 +1,9 @@
 name = Entercom Personality
 description = Entercom Personality content type
 core = 7.x
-package = Features
+package = Entercom Content
+version = 7.x-1.0
+project = entercom_personality
 dependencies[] = ctools
 dependencies[] = entercom_fields
 dependencies[] = entityreference
@@ -22,3 +24,4 @@ features[variable][] = menu_parent_personality
 features[variable][] = node_options_personality
 features[variable][] = node_preview_personality
 features[variable][] = node_submitted_personality
+mtime = 1421193884
