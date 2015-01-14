@@ -1,8 +1,8 @@
 name = Entercom Event Content Type
 description = Defines an Event content type
 core = 7.x
-package = Features
-version = 7.x-1.0
+package = Entercom Content
+version = 7.x-2.0
 project = entercom_event_content_type
 dependencies[] = ctools
 dependencies[] = date
@@ -27,3 +27,4 @@ features[variable][] = menu_parent_event
 features[variable][] = node_options_event
 features[variable][] = node_preview_event
 features[variable][] = node_submitted_event
+mtime = 1421193890
