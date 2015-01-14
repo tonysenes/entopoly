@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Homepage Carousel View feature.
+ */
+
+include_once 'homepage_carousel_view.features.inc';
