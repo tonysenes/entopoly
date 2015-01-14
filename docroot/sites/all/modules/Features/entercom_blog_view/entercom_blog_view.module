@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Entercom Blog View feature.
+ */
+
+include_once 'entercom_blog_view.features.inc';
