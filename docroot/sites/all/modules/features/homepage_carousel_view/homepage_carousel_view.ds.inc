@@ -18,9 +18,14 @@ function homepage_carousel_view_ds_field_settings_info() {
   $ds_fieldsetting->view_mode = 'carousel_view';
   $ds_fieldsetting->settings = array(
     'title' => array(
-      'weight' => '0',
+      'weight' => '1',
       'label' => 'hidden',
       'format' => 'default',
+      'formatter_settings' => array(
+        'link' => '1',
+        'wrapper' => 'h2',
+        'class' => 'carousel-red',
+      ),
     ),
   );
   $export['node|blog|carousel_view'] = $ds_fieldsetting;
@@ -119,10 +124,12 @@ function homepage_carousel_view_ds_layout_settings_info() {
   $ds_layout->settings = array(
     'regions' => array(
       'ds_content' => array(
-        0 => 'title',
+        0 => 'field_picture',
+        1 => 'title',
       ),
     ),
     'fields' => array(
+      'field_picture' => 'ds_content',
       'title' => 'ds_content',
     ),
     'classes' => array(),
